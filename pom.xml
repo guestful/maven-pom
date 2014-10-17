@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.guestful</groupId>
-    <artifactId>pom</artifactId>
+    <artifactId>maven-pom</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -52,7 +52,7 @@
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/guestful/maven/package</url>
+            <url>https://api.bintray.com/maven/guestful/maven/${project.artifactId}</url>
         </repository>
     </distributionManagement>
 
