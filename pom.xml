@@ -5,7 +5,7 @@
 
     <groupId>com.guestful</groupId>
     <artifactId>maven-pom</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Guestful POM</name>
@@ -24,6 +24,7 @@
         <connection>scm:git:git@github.com:guestful/${github.name}.git</connection>
         <developerConnection>scm:git:git@github.com:guestful/${github.name}.git</developerConnection>
         <url>https://github.com/guestful/${github.name}</url>
+        <tag>HEAD</tag>
     </scm>
 
     <organization>
@@ -234,8 +235,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.4.2</version>
                 <configuration>
-                    <useReleaseProfile>false</useReleaseProfile>
-                    <releaseProfiles>release</releaseProfiles>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
@@ -249,6 +248,12 @@
     <profiles>
         <profile>
             <id>release</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
