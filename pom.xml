@@ -5,7 +5,7 @@
 
     <groupId>com.guestful</groupId>
     <artifactId>maven-pom</artifactId>
-    <version>6-SNAPSHOT</version>
+    <version>6</version>
     <packaging>pom</packaging>
 
     <name>Guestful POM</name>
@@ -24,7 +24,7 @@
         <connection>scm:git:git@github.com:guestful/${github.name}.git</connection>
         <developerConnection>scm:git:git@github.com:guestful/${github.name}.git</developerConnection>
         <url>https://github.com/guestful/${github.name}</url>
-        <tag>HEAD</tag>
+        <tag>maven-pom-6</tag>
     </scm>
 
     <organization>
