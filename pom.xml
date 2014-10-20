@@ -59,6 +59,10 @@
 
     <repositories>
         <repository>
+            <id>bintray</id>
+            <url>http://dl.bintray.com/guestful/maven</url>
+        </repository>
+        <repository>
             <id>jboss</id>
             <url>http://repository.jboss.org/nexus/content/groups/public</url>
         </repository>

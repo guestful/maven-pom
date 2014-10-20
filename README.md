@@ -1,14 +1,5 @@
 === Parent Maven POM ===
 
-Add our custom repository:
-
-```
-<repository>
-    <id>bintray</id>
-    <url>http://dl.bintray.com/guestful/maven</url>
-</repository>
-```
-
 And in your POM:
 
 ```
