@@ -1,4 +1,5 @@
-=== Parent Maven POM ===
+Parent Maven POM
+================
 
 And in your POM:
 
