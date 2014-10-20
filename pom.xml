@@ -89,7 +89,6 @@
                 <version>2.4</version>
             </extension>
         </extensions>
-        <finalName>guestful.${project.artifactId}</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
