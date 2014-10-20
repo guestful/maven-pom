@@ -19,4 +19,4 @@ And in your POM:
 </parent>
 ```
 
-Checkout last version [https://bintray.com/guestful/maven/maven-pom/view/files/com/guestful/maven-pom](here)
+Checkout last version [here](https://bintray.com/guestful/maven/maven-pom/view/files/com/guestful/maven-pom)
